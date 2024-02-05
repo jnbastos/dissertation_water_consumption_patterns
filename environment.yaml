@@ -1,0 +1,23 @@
+name: water-consumption 
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - notebook                     # Jupyter notebook
+  - ipywidgets                   # For progress bars
+  - pandas                       # DataFrames for tabular data
+  - numpy                        # To do math
+  - matplotlib                   # The de facto standard Python plotting library
+  - seaborn                      # Make matplotlib plots pretty
+  - rpy2                         # For using R packages in Python!
+  - tqdm
+  - scikit-learn
+  - tslearn
+  - plotly
+  - pickle5  
+  - pip:
+    - dataframe-image
+    - Cython
+    - feather
+
+
