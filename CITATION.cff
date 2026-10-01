@@ -5,7 +5,7 @@ type: software
 authors:
   - family-names: Bastos
     given-names: "João Miguel Novais e"
-repository-code: "https://github.com/jnbastos/dissertation_water_consumption_patterns"
+repository-code: "https://github.com/jnbastos/household-water-use-patterns"
 url: "https://repositorium.uminho.pt/entities/publication/c8ec9929-953a-4e22-a9ac-8dec8cd1a096"
 date-released: 2024-02-05
 keywords:
