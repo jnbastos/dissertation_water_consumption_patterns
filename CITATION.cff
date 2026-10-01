@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the dissertation."
+title: "Household water-use patterns with machine learning"
+type: software
+authors:
+  - family-names: Bastos
+    given-names: "João Miguel Novais e"
+repository-code: "https://github.com/jnbastos/dissertation_water_consumption_patterns"
+url: "https://repositorium.uminho.pt/entities/publication/c8ec9929-953a-4e22-a9ac-8dec8cd1a096"
+date-released: 2024-02-05
+keywords:
+  - machine learning
+  - clustering
+  - time series
+  - water consumption
+preferred-citation:
+  type: thesis
+  title: "Exploração de diferentes técnicas de machine learning para a deteção de padrões de consumo de água"
+  authors:
+    - family-names: Bastos
+      given-names: "João Miguel Novais e"
+  thesis-type: "MSc dissertation"
+  institution:
+    name: "University of Minho"
+  year: 2024
+  url: "https://repositorium.uminho.pt/entities/publication/c8ec9929-953a-4e22-a9ac-8dec8cd1a096"
