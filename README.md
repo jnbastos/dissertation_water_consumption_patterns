@@ -65,7 +65,10 @@ flowchart LR
 ```sh
 conda env create -f environment.yaml
 conda activate water-consumption
+pip install --no-build-isolation gap-stat
 ```
+
+The environment was rebuilt and checked on Python 3.10 in October 2026: every library the scripts import loads, and the clustering libraries run on sample data. `gap-stat` is installed separately because its package no longer builds with pip's default settings.
 
 These are research scripts, not a packaged pipeline, and some steps call R through `rpy2`. The utility's meter data is confidential and not included, so the scripts expect your own input files in `Data/` (for example, `aggregation.py` reads `Data/dfnotnor.csv`).
 
